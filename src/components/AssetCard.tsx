@@ -21,7 +21,7 @@ const AssetCard = ({
 }: Props) => {
 	return (
 		<>
-			<div className="w-[290px] h-[350px] bg-gradient border border-solid border-[#2E3149] backdrop-sepia-0 rounded-[20px] flex flex-col justify-between items-center font-[tomorrow] relative">
+			<div className="w-[290px] h-[350px] bg-gradient border border-solid border-[#2E3149] backdrop-sepia-0 rounded-[20px] flex flex-col justify-between items-center font-[tomorrow] relative m-2 mt-20">
 				<div className="w-[100px] h-[50px] absolute border  border-[#2E3149] rounded-br-[90px] border-t-0 top-[-1px] rounded-bl-[90px] bg-primary"></div>
 				<div
 					className={`w-[85px] h-[85px] absolute  rounded-[50%] ${gradient} top-[-45px] flex justify-center items-center`}

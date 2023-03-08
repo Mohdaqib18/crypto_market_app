@@ -13,7 +13,7 @@ import {
 const App = () => {
 	return (
 		<>
-			<div className="bg-primary h-screen flex flex-row justify-evenly items-center">
+			<div className="bg-primary h-screen flex flex-row justify-evenly items-center overflow-auto w-[100%] sm:flex-col lg:flex-row flex-wrap">
 				<AssetCard
 					assetIcon={bitcoinLarge}
 					name="Bitcoin (BTC)"
